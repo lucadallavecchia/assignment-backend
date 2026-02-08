@@ -1,0 +1,66 @@
+### Java ###
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.cloudbees
+
+### Maven ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+/out/
+# Escludi file di configurazione specifica tranne quelli necessari
+.idea/libraries/
+.idea/artifacts/
+
+### Eclipse ###
+.metadata/
+bin/
+tmp/
+.tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.classpath
+.project
+.factorypath
+
+### VS Code ###
+.vscode/
+
+### Log Files ###
+*.log
+logs/
+
+### Operating System ###
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+### Database (H2) ###
+# Se usi H2 con persistenza su file, escludi i file del database
+*.mv.db
+*.trace.db
